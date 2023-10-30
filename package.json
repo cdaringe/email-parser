@@ -1,0 +1,32 @@
+{
+  "name": "email-parser",
+  "version": "0.0.1",
+  "description": "parses email addresses per RFC 5322",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cdaringe/email-parser.git"
+  },
+  "keywords": [
+    "email",
+    "parser",
+    "rfc",
+    "rfc5322",
+    "5322"
+  ],
+  "author": "cdaringe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdaringe/email-parser/issues"
+  },
+  "homepage": "https://github.com/cdaringe/email-parser#readme",
+  "devDependencies": {
+    "@types/node": "20.8.9",
+    "parjs": "0.16.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  }
+}
